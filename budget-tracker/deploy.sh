@@ -26,7 +26,7 @@ cd build
 git init
 
 # Add remote repository
-git remote add origin YOUR_REPOSITORY_URL
+git remote add origin https://github.com/aideedamsyar/budget-trackerYOUR_REPOSITORY_URL
 
 # Checkout the gh-pages branch
 git checkout -b gh-pages
