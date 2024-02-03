@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9817fef.css",
+    "main.js": "/static/js/main.4019100d.js",
+    "static/media/unbroker.svg": "/static/media/unbroker.6b27d449a437ee89e280c61d494c91c8.svg",
+    "index.html": "/index.html",
+    "main.a9817fef.css.map": "/static/css/main.a9817fef.css.map",
+    "main.4019100d.js.map": "/static/js/main.4019100d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9817fef.css",
+    "static/js/main.4019100d.js"
+  ]
+}
