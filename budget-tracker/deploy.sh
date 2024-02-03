@@ -9,12 +9,10 @@ npm run build
 # Navigate into the build directory
 cd build
 
-# If there's a nested 'budget-tracker' structure, move everything up a level
-if [ -d "budget-tracker" ]; then
-    # Move the contents up and delete the now empty subdirectory
-    mv budget-tracker/* .
-    rmdir budget-tracker
-fi
+# Remove the nested directory structure by moving the contents
+# up to the root of the gh-pages branch
+# Assuming the build outputs directly to the build/ folder
+# and does not need to move into another directory
 
 # Initialize a new git repository
 git init
@@ -24,10 +22,6 @@ git remote add origin $REPO_URL
 
 # Checkout the gh-pages branch
 git checkout -b gh-pages
-
-# If your GitHub Pages is set to use the /docs folder, uncomment the following lines:
-# mkdir -p docs
-# mv * docs
 
 # Add all the files
 git add .
