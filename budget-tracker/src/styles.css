@@ -16,3 +16,22 @@
     animation: gradientBackground 5s ease infinite;
   }
   
+  /* Default size */
+.logo {
+  height: 17px; /* Adjust based on your default size preference */
+  width: auto;
+}
+
+/* For tablets */
+@media (min-width: 768px) {
+  .logo {
+    height: 35px; /* Adjust based on your preference */
+  }
+}
+
+/* For desktops */
+@media (min-width: 1024px) {
+  .logo {
+    height: 40px; /* Adjust based on your preference */
+  }
+}

@@ -3,16 +3,17 @@
 # Define the repository URL variable
 REPO_URL="https://github.com/aideedamsyar/budget-tracker.git"
 
+# Your custom domain
+CUSTOM_DOMAIN="https://tracker.aideedamsyar.com"
+
 # Build the project
 npm run build
 
 # Navigate into the build directory
 cd build
 
-# Remove the nested directory structure by moving the contents
-# up to the root of the gh-pages branch
-# Assuming the build outputs directly to the build/ folder
-# and does not need to move into another directory
+# Create a CNAME file with your custom domain
+echo $CUSTOM_DOMAIN > CNAME
 
 # Initialize a new git repository
 git init
