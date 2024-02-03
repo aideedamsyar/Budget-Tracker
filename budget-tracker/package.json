@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aideedamsyar.github.io/Budget-Tracker/budget-tracker",
+  "homepage": "https://aideedamsyar.github.io/budget-tracker",
   "name": "budget-tracker",
   "version": "0.1.0",
   "private": true,
@@ -44,5 +44,7 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "https://aideedamsyar.github.io/budget-tracker/"
+
 }

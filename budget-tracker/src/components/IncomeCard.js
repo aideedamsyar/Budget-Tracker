@@ -3,6 +3,7 @@ import { Button, Card, ProgressBar, Stack } from "react-bootstrap"
 
 
 export default function IncomeCard({ name, amount, max, gray, hideButtons, onAddExpenseClick, onViewExpensesClick }) {  
+    const classNames = [];
   return (
     <Card className={classNames.join(" ")}>
         <Card.Body>

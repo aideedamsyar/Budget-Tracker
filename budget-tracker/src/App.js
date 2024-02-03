@@ -60,7 +60,7 @@ function App() {
               />
             )
           })}
-          <IncomeCard></IncomeCard>
+          {/* <IncomeCard></IncomeCard> */}
           <UncategorizedBudgetCard
             onAddExpenseClick={openAddExpenseModal}
             onViewExpensesClick={() =>

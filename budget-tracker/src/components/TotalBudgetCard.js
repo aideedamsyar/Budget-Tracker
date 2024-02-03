@@ -1,5 +1,6 @@
 import { useBudgets } from "../contexts/BudgetsContext"
 import BudgetCard from "./BudgetCard"
+import "../styles.css"
 
 export default function TotalBudgetCard() {
   const { expenses, budgets } = useBudgets()
@@ -7,5 +8,5 @@ export default function TotalBudgetCard() {
   const max = budgets.reduce((total, budget) => total + budget.max, 0)
   if (max === 0) return null
 
-  return <BudgetCard amount={amount} name="Total" gray max={max} hideButtons />
+  return <BudgetCard className="animated-gradient" amount={amount} name="Total" gray max={max} hideButtons />
 }
